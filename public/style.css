@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'nexa-rust';
+  src:
+  url('./fonts/NexaRustSlab-BlackShadow01-Free.otf')
+  format('opentype');
+}
+
+body{
+    background:#21B0F2;
+    font-family: 'nexa-rust';
+    color:#5E828E;
+    text-align:center;
+}
+
+img{
+  height:15%;
+  width:15%;
+}
+
+input:not([type=submit]){
+  color:white;
+}
+input{
+  cursor:pointer;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+form{
+  text-align:left;
+  width:15%;
+  margin:0 auto;
+}
+
+.submit-input{
+  margin-top: 10px;
+}
